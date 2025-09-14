@@ -1,0 +1,99 @@
+{
+  
+  
+  "Andhra Pradesh":{
+    "Currency":"INR",
+    "Last_Updated":"13-09-2025",
+    "products":{
+    "Vegetables":{
+        "Tomato":15,
+        "Onion":18,
+        "potato":20,
+        "carrot":40,
+        "cauliflower":20,
+        "green chilli":40,
+        "ginger":60,
+        "beetroot":30,
+        "bottle guard":30
+        
+    },
+    "Fruits":{
+        "Mango":90,
+        "Apple":150,
+        "banana":60,
+        "pomegranate":100,
+        "watermelon":85,
+        "orange":50,
+        "guava":45,
+        "grapes":90,
+        "avacado":230
+    },
+    "cereals":{
+        "rice":50,
+        "wheat":70,
+        "maize":20,
+        "barley":20,
+        "oats":100,
+        "rye":50
+
+    },
+    "pulses":{
+        "turdal":116,
+        "urad dal":114,
+        "moongdal":110,
+        "masoor dal":89,
+        "chana dal":70,
+        "peas":50
+
+    },
+    "oilseeds":{
+      "sunflower seeds":57,
+      "groundnut":61,
+      "soyabean":40,
+      "rapeseed":40,
+      "palm oil seed":40
+
+    },
+    "spices":{
+        "pepper":707,
+        "small cardamon":2582,
+        "ajwain seed":85,
+        "cumin seed":180,
+        "fennel seed":74,
+        "fenugreek seed":46,
+        "coriander seed":68,
+        "turmeric":116
+
+    },
+    "fibers":{
+        "silk":455,
+        "wool":49,
+        "jute":82,
+        "polyester fibre":130,
+        "nylon":537
+       
+
+    },
+    "dairy":{
+        "cream milk":69,
+        "toned milk":29,
+        "butter":200,
+        "cheese":250,
+        "yogurt":300,
+        "ghee":300,
+        "paneer":100
+        
+    },
+    "meat_fish":{
+        "chicken":250,
+        "seema fish":500,
+        "eggs":5,
+        "prawns":300,
+        "mutton":1000,
+        "appolo fish":1000
+
+    }
+
+}
+}
+}
