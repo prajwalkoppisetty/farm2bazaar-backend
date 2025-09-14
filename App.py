@@ -43,7 +43,8 @@ def internal_server_error(e):
     return jsonify(error="Internal Server Error", message=str(e)), 500
 
 # ---------------- Load Market Data ----------------
-
+with open("market_rates.json", "r") as file:
+    market_data = json.load(file)
 # ---------------- Farmer Model ----------------
 class Farmer(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -784,6 +785,7 @@ def retailer_purchase_analysis(retailer_id):
 
 if __name__=="__main__":
     app.run(host="0.0.0.0",port=5000,debug=True)
+
 
 
 
