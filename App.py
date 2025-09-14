@@ -11,7 +11,8 @@ from fpdf import FPDF
 
 # ---------------- Config ----------------
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "https://farm2bazaar.vercel.app/"}})
+CORS(app, resources={r"/*": {"origins": "https://farm2bazaar.vercel.app"}})
+
 
 
 # Configure database for Railway MySQL or fallback to SQLite
@@ -778,4 +779,5 @@ def retailer_purchase_analysis(retailer_id):
 
 if __name__=="__main__":
     app.run(host="0.0.0.0",port=5000,debug=True)
+
 
